@@ -1,6 +1,5 @@
 from tkinter import *
 
-
 window = Tk()
 
 photo = PhotoImage(file='images/logo.png')

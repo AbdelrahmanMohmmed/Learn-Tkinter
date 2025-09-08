@@ -5,7 +5,7 @@ window = Tk()
 photo = PhotoImage(file='images/logo.png')
 
 label = Label(window,
-              text="bro, do you even code?",
+              text="bro, This is the first Tk",
               font=('Arial',40,'bold'),
               fg='#00FF00',
               bg='black',

@@ -1,3 +1,4 @@
+import os
 from tkinter import *
 
 def move_up(event):
@@ -16,7 +17,8 @@ window.bind("<w>",move_up)
 window.bind("<s>",move_down)
 window.bind("<a>",move_left)
 window.bind("<d>",move_right)
-image =PhotoImage(file='C:\\Users\\hp\\Desktop\\hey.png')
+image_path = os.path.join(os.path.dirname(__file__), 'images', 'logo.png')
+image =PhotoImage(file=image_path)
 label=Label(window,image=image)
 label.place(x=0,y=0)
 window.mainloop()
